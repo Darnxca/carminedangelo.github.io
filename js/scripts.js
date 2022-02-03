@@ -11,7 +11,6 @@
 */
 
 (function($) {
-
     // Show current year
     $("#current-year").text(new Date().getFullYear());
 
@@ -19,7 +18,7 @@
     $('html').removeClass('no-js');
 
     // Animate to section when nav is clicked
-    $('header a').click(function(e) {
+    $('header a').on("click",function(e){
 
         // Treat as normal link if no-scroll class
         if ($(this).hasClass('no-scroll')) return;
@@ -39,14 +38,14 @@
     });
 
     // Scroll to top
-    $('#to-top').click(function() {
+    $('#to-top').on("click",function(e){
         $('html, body').animate({
             scrollTop: 0
         }, 500);
     });
 
     // Scroll to first element
-    $('#lead-down span').click(function() {
+    $('#lead-down span').on("click",function(e){
         var scrollDistance = $('#lead').next().offset().top;
         $('html, body').animate({
             scrollTop: scrollDistance + 'px'
@@ -80,17 +79,17 @@
     });
 
     // Open mobile menu
-    $('#mobile-menu-open').click(function() {
+    $('#mobile-menu-open').on("click",function(e){
         $('header, body').addClass('active');
     });
 
     // Close mobile menu
-    $('#mobile-menu-close').click(function() {
+    $('#mobile-menu-close').on("click",function(e){
         $('header, body').removeClass('active');
     });
 
     // Load additional projects
-    $('#view-more-projects').click(function(e){
+    $('#view-more-projects').on("click",function(e){
         e.preventDefault();
         $(this).fadeOut(300, function() {
             $('#more-projects').fadeIn(300);
