@@ -8,13 +8,27 @@
         dataType: 'json', async: false, dataType: 'json', 
         success: function (lang) { language = lang}
     }).done(function( data ) {
+
+        //blocco menù
+        setMenuField()
+
         $("#name").html(language.name)
 
         //Blocco education
-        setEducationField();
+        setEducationField()
+
+        $("#contact2").html(language.contatti)
+        $("#mess").html(language.messaggio)
         
     });
     
+    function setMenuField(){
+        $("#ed1").html(language.ed)
+        $("#pro1").html(language.progetti)
+        $("#con1").html(language.contatti)
+    }
+
+
     function setEducationField(){
         $("#ed").html(language.ed)
         $("#sup").html(language.data_sup)

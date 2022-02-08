@@ -1,11 +1,14 @@
 { 
     "name": "Carmine D'Angelo",
     "ed": "Formazione scolastica",
+    "progetti": "Progetti",
+    "contatti" : "Contatti",
     "data_sup": "Settembre 2010 - Luglio 2016",
     "titolo_sup": "Diploma tecnico industriale: Informatica e telecomunicazioni",
     "igs": "Progetto: IGS (Imprese Giovani Studenti): progetto improntato a simulare la creazione di un'impresa,     ideando una business idea, raccogliendo un capitale sociale, assumendo le cariche sociali, elaborando il business plan, realizzando concretamente prodotti o servizi reali. Il progetto proposto si basava su di un parcheggio con gestione automatizzata utilizzando fonti rinnovabili.Il mio ruolo all'interno del progetto è stato di publicitario e raccolta di sponsor.<br>    Pagina facebook: <a href=https://www.facebook.com/greentechspa>GREEN.TECH</a>.",
     "data_tri": "Settembre 2016 - Gennaio 2020",
     "titolo_tri": "Laurea triennale in informatica",
     "data_mag": "Settembre 2020 - in corso",
-    "titolo_mag":"Laurea magistrale in informatica: curriculum sicurezza informatica"
+    "titolo_mag":"Laurea magistrale in informatica: curriculum sicurezza informatica",
+    "messaggio": "Messaggio:"
 }

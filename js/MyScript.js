@@ -26,4 +26,21 @@
                 
         });
     });
+
+    setSkill()
+
+    function setSkill(){
+
+        const skill = ["Java", "javascript","php","css","python","flutter","c","jquery",
+                        "matlab"]
+
+        $("#skills").append("<ul>");
+        
+        skill.forEach(x => {
+            $("#skills").append("<li>"+x+"</li>");
+        });
+        
+        $("#skills").append("</ul>");
+        
+    }
 })(jQuery);
