@@ -4,7 +4,7 @@
 
     userLang = (userLang != "en-EN" && userLang != "it-IT") ? "en-EN" : userLang
     $.ajax({ 
-        url:  '/language/' +  userLang + '.json', 
+        url:  'carminedangelo.github.io/language/' +  userLang + '.json', 
         dataType: 'json', async: false, dataType: 'json', 
         success: function (lang) { language = lang}
     }).done(function( data ) {
