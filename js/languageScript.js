@@ -14,6 +14,7 @@
 
         $("#name").html(language.name)
 
+        $("#about").html(language.about)
         //Blocco education
         setEducationField()
 
