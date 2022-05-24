@@ -652,6 +652,14 @@ footer {
 
 .project-image {
     float: left;
+
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 20px;
+    }
 }
 
 .project-info {
@@ -903,6 +911,58 @@ footer {
         }
     }
 
+    .project-image{
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+}
+
+// Medium Devices
+@media only screen and (max-width : 991px) {
+
+    #lead {
+        height: auto;
+        min-height: auto;
+        max-height: auto;
+        padding: 100px 15px;
+    }
+
+    #lead-content {
+        position: relative;
+        transform: none;
+        left: auto;
+        top: auto;
+
+        h1 {
+            font-size: 3em;
+        }
+
+        h2 {
+            font-size: 1.75em;
+        }
+    }
+
+    #about {
+        text-align: center;
+
+        p {
+            text-align: left;
+        }
+    }
+
+    .project-image{
+        img{
+            display: inline !important;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+        }
+    }
+
 }
 
 // Small Devices
@@ -958,17 +1018,22 @@ footer {
         }
     }
 
-    .project-image {
+    .project-image{
         display: none;
+    }
+    .project-image img{
+        width: 0px;
+        height: 0px;
     }
 
     .project-info {
         position: relative;
-        margin: 0;
+        margin-left: 0px !important;
         padding: 30px 15px;
         top: auto;
         transform: none;
     }
+
 
     footer {
         text-align: center;

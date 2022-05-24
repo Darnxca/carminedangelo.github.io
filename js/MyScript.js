@@ -22,8 +22,6 @@
                 $("#email").val("")
                 $("#messaggio").val("")
             });
-            
-                
         });
     });
 
@@ -31,13 +29,21 @@
 
     function setSkill(){
 
-        const skill = ["Java", "javascript","php","css","python","flutter","c","jquery",
-                        "matlab"]
+        const array = ["Java", "javascript","php","css","python","flutter","dart","c","jquery",
+                        "matlab","android","latex", "microsoft office"];
+
+        const skill = array.sort((a, b) => {
+            return a.localeCompare(b, undefined, {sensitivity: 'base'});
+        });
 
         $("#skills").append("<ul>");
+
+        var i = 0;
         
         skill.forEach(x => {
             $("#skills").append("<li>"+x+"</li>");
+            i++;
+            if (i % 7 == 0) $("#skills").append("</ul><ul>");
         });
         
         $("#skills").append("</ul>");

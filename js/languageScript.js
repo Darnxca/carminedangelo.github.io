@@ -18,6 +18,12 @@
         //Blocco education
         setEducationField()
 
+        //blocco project
+        $("#mystego").html(language.mystego)
+        $("#mStego").html(language.vediProg)
+        $("#smartcupboard").html(language.smartCup)
+        $("#mSmart").html(language.vediProg)
+
         $("#contact2").html(language.contatti)
         $("#mess").html(language.messaggio)
         
