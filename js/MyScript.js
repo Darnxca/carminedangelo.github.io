@@ -29,8 +29,8 @@
 
     function setSkill(){
 
-        const array = ["Java", "JavaScript","PHP","CSS","Python","Flutter","Dart","C","jQuery",
-                        "MATLAB","Android","LaTeX", "Microsoft Office"];
+        const array = ["Java", "JavaScript","PHP","CSS","Python","Flutter","Dart","C","C++","jQuery",
+                        "MATLAB","Android","LaTeX", "Microsoft Office","Node.js","React","MySQL","HTML5"];
 
         const skill = array.sort((a, b) => {
             return a.localeCompare(b, undefined, {sensitivity: 'base'});
