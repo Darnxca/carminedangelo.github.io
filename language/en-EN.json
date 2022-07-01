@@ -14,5 +14,6 @@
     "mystego": "Android application developed for the data compression exam. Its task is to encrypt a message using the RSA algorithm and to conceal it inside an image using steganography.",
     "vediProg": "View Project",
     "smartCup": "Android application developed for the Enterprise Mobile Application Development exam. The application was developed with the help of some students of the master of economics and using flutter and dart as languages. The aim was to provide a digital cupboard to help the user with his shopping.",
+    "planE":"Design activity carried out for the penetration testing exam, in which a machine is analyzed in search of its vulnerabilities and trying to gain control.",
     "about" : "Hi, I am Carmine D'Angelo, I am 25 years old and I am a university student of Computer Science in Fisciano, Salerno. From an early age I have always been fascinated by video games and how they were made. When in my adolescence I started to approach computer science I loved the possibility of being able to create any software that could help me."
 }

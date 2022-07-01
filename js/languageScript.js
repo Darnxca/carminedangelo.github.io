@@ -23,6 +23,8 @@
         $("#mStego").html(language.vediProg)
         $("#smartcupboard").html(language.smartCup)
         $("#mSmart").html(language.vediProg)
+        $("#planetsEarth").html(language.planE)
+        $("#mEarth").html(language.vediProg)
 
         $("#contact2").html(language.contatti)
         $("#mess").html(language.messaggio)
