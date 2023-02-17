@@ -15,5 +15,6 @@
     "vediProg": "View Project",
     "smartCup": "Android application developed for the Enterprise Mobile Application Development exam. The application was developed with the help of some students of the master of economics and using flutter and dart as languages. The aim was to provide a digital cupboard to help the user with his shopping.",
     "planE":"Design activity carried out for the penetration testing exam, in which a machine is analyzed in search of its vulnerabilities and trying to gain control.",
-    "about" : "Hi, I am Carmine D'Angelo, I am 25 years old and I am a university student of Computer Science in Fisciano, Salerno. From an early age I have always been fascinated by video games and how they were made. When in my adolescence I started to approach computer science I loved the possibility of being able to create any software that could help me."
+    "about" : "Hi, I am Carmine D'Angelo, I am 25 years old and I am a university student of Computer Science in Fisciano, Salerno. From an early age I have always been fascinated by video games and how they were made. When in my adolescence I started to approach computer science I loved the possibility of being able to create any software that could help me.",
+    "compilatori": "Creation of the Frontend part of a compiler (also called transpiler), written in Java following the specifications given during the Compilers course. The specifications in question are of the NewLang language, the task of our transpiler was to transform NewLang into the C language."
 }
