@@ -27,6 +27,8 @@
         $("#mEarth").html(language.vediProg)
         $("#newLangCompiler").html(language.compilatori)
         $("#mCompiler").html(language.vediProg)
+        $("#evoting").html(language.sicurezza)
+        $("#mSicurezza").html(language.vediProg)
 
         $("#contact2").html(language.contatti)
         $("#mess").html(language.messaggio)
